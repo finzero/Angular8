@@ -18,7 +18,7 @@ export class AppComponent implements AfterViewInit{
   }
 
   showToaster(){
-    this.toaster1.popToast('success','App','triggered from toaster1.component.ts');
+    this.toaster1.popToast('success','App','triggered from App Component');
   }
 
 }
